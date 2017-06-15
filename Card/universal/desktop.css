@@ -1,0 +1,141 @@
+@media (min-width: 901px), (orientation: landscape){
+    .long-bar{
+        font-size: 4vw;
+        padding: 0.6vw;
+        margin: 1vw;
+    }
+    
+    #main-header{
+        flex-direction: row;
+        font-size: 4vw;
+    }
+
+    #description-block{
+        flex: 5;
+        align-items: center;
+    }
+
+    #welcome{
+        font-size: 8vw;
+    }
+
+    #description-info{
+        font-size: 3vw;
+        padding: 0.6vw;
+        margin: 1vw;
+    }
+
+    .name-header{
+        padding: 0.3vw;
+        font-size: 5vw;
+    }
+
+    .card-of-the-project{
+        width: 400px;
+        height: 250px;
+    }
+
+    .cards-title{
+        font-size: 40px;
+        padding-left: 10px;
+    }
+
+    .cards-content{
+        margin: 5px;
+    }
+
+    .technologies{
+        margin: 0 5px 5px 5px;
+        font-size: 18px;
+    }
+
+    .tech-icon{
+        margin: 3px;
+        padding: 2px;
+    }
+
+    .links{
+        font-size: 25px;
+        margin: 0 5px 5px 0;
+    }
+
+    .material-icon{
+        top: 4px;
+    }
+
+    .contact-form{
+        flex-direction: row;
+    }
+
+    .form-part-1{
+        flex: 1;
+        margin-right: 2.6vw;
+    }
+
+    .form-part-2{
+        flex: 1;
+    }
+
+    .contact-form{
+        font-size: 2vw;
+    }
+
+    .field-name{
+        padding: 0.3vw;
+        font-size: 2.6vw;
+    }
+
+    input{
+        padding: 0.4vw;
+        font-size: 2.6vw;
+    }
+
+    button[type="submit"]{
+        padding: 0.4vw;
+        font-size: 2.6vw;
+    }
+
+    textarea{
+        height: 22vw;
+    }
+
+    .std-side-content{
+        font-size: 2.6vw !important;
+    }
+
+    #side-bar{
+        height: 10vw;
+        font-size: 7vw;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 0.4vw;
+    }
+
+    #side-bar .material-icon{
+        top: -1vw;
+        font-size: 11vw;
+    }
+
+    #side-bar span{
+        margin: 5px;
+    }
+
+    #side-title{
+        flex: 1;
+        padding-left: 5px;
+    }
+
+    .std-side-link{
+        height: 9vw;
+        font-size: 7vw;
+    }
+
+}
+
+@media (min-width: 901px){
+
+    #wrapper{
+        font-size: 28px;
+        background-image: url("../resources/deep_blue_flower_web.jpg");
+    }
+}
