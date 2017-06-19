@@ -26,7 +26,7 @@ $(document).ready(function(){
     let sheetsWidth;
 
     function updateSheetsWidth(){
-        const scaleMultipler = 1.2;
+        const scaleMultipler = 1.3;
 
         if($(window).width() <= $(window).height() * scaleMultipler) 
             sheetsWidth = $(window).width();
@@ -71,7 +71,7 @@ $(document).ready(function(){
         // unlock scroll
         $("html").css("overflow", "auto");
         $("body").css("overflow", "auto");
-        setTimeout(function() { wrapper.css("filter", "grayscale(0%)"); }, 400);
+        setTimeout(function() { wrapper.css("filter", "initial"); }, 400);
         setTimeout(function() { sheetExtended = false }, 400);
     }
 

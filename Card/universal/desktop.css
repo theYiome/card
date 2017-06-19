@@ -1,4 +1,4 @@
-@media (min-width: 901px), (orientation: landscape){
+@media (min-width: 960px), (orientation: landscape){
     .long-bar{
         font-size: 4vw;
         padding: 0.6vw;
@@ -8,6 +8,12 @@
     #main-header{
         flex-direction: row;
         font-size: 4vw;
+    }
+
+    #photo-block div{
+        border-radius: 12vw;
+        width: 24vw;
+        height: 24vw;
     }
 
     #description-block{
@@ -29,38 +35,38 @@
         padding: 0.3vw;
         font-size: 5vw;
     }
+    
+    /* single card css */
 
     .card-of-the-project{
-        width: 400px;
-        height: 250px;
+        width: 30vw;
+        height: 19vw;
+        margin: 0 0 3vw;
     }
 
     .cards-title{
-        font-size: 40px;
-        padding-left: 10px;
+        font-size: 3vw;
+        padding-left: 0.6vw;
     }
 
     .cards-content{
-        margin: 5px;
+        margin: 0.6vw;
     }
 
     .technologies{
-        margin: 0 5px 5px 5px;
-        font-size: 18px;
+        font-size: 1.6vw;
+        margin: 0 0.3vw 0.3vw 0.6vw;
     }
 
     .tech-icon{
-        margin: 3px;
-        padding: 2px;
+        border-radius: 0.3vw;
+        margin: 0.2vw;
+        padding: 0.1vw;
     }
 
     .links{
-        font-size: 25px;
-        margin: 0 5px 5px 0;
-    }
-
-    .material-icon{
-        top: 4px;
+        font-size: 2vw;
+        margin: 0 0.6vw 0.3vw 0;
     }
 
     .contact-form{
@@ -99,43 +105,23 @@
         height: 22vw;
     }
 
-    .std-side-content{
-        font-size: 2.6vw !important;
-    }
+    /* side panel css */
 
     #side-bar{
-        height: 10vw;
         font-size: 7vw;
         display: flex;
         flex-direction: row;
-        padding-bottom: 0.4vw;
-    }
-
-    #side-bar .material-icon{
-        top: -1vw;
-        font-size: 11vw;
-    }
-
-    #side-bar span{
-        margin: 5px;
     }
 
     #side-title{
         flex: 1;
-        padding-left: 5px;
-    }
-
-    .std-side-link{
-        height: 9vw;
-        font-size: 7vw;
     }
 
 }
 
-@media (min-width: 901px){
+@media (min-width: 960px){
 
     #wrapper{
-        font-size: 28px;
         background-image: url("../resources/deep_blue_flower_web.jpg");
     }
 }

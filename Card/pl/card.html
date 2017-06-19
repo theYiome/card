@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="description" content="A page's description, usually one or two sentences."/>
         <title>Work in progress</title>
-
+        
+        <script src="https://use.fontawesome.com/0ee462d83e.js"></script>
         <link rel="stylesheet" href="../universal/mobile-portrait.css" type="text/css"/>
         <link rel="stylesheet" href="../universal/std-side.css" type="text/css"/>
         <link rel="stylesheet" href="../universal/utility.css" type="text/css"/>
@@ -17,9 +18,9 @@
     <body>
 
         <div id="side-sheet" class="shadow-5">
-            <nav id="side-bar" class="shadow-1 primary-light">
+            <nav id="side-bar" class="shadow-3 primary-light">
                 <span id="side-back" class="shadow-2 primary-normal">
-                    <i class="material-icon">keyboard_backspace</i>
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
                 </span>
                 <span id="side-title" class="shadow-2 primary-dark"></span>
             </nav>
@@ -31,13 +32,13 @@
             <header class="shadow-2">
 
                 <div id="lang-bar" class="shadow-2 long-bar">
-                    Website in English <i class="material-icon">language</i>
+                    Website in English <i class="fa fa-language" aria-hidden="true"></i>
                 </div>
 
                 <div id="main-header">
 
                     <div id="photo-block" style="margin: 0;" class="horiz-ver-center">
-                        <div>
+                        <div class="shadow-4">
                         </div>
                     </div>
 
@@ -72,14 +73,14 @@
                                 <span class="tech-icon secondary-dark shadow-1">jQuery</span>
                             </div>
                             <div class="links secondary-dark shadow-1" data-page="Portfolio">
-                                Więcej <i class="material-icon">info_outline</i>
+                                Więcej <i class="fa fa-info-circle" aria-hidden="true"></i>
                             </div>
                         </div>
                     </div>
 
                 <div class="card-of-the-project">
-                        <div class="cards-title secondary-light shadow-1">Sonda v1.0</div>
-                        <div class="cards-content shadow-1" style='background-image: url("../resources/sonda-V1.jpg");'></div>
+                        <div class="cards-title secondary-light shadow-1">Sonda</div>
+                        <div class="cards-content shadow-1" style='background-image: url("../resources/sonda.jpg");'></div>
                         <div class="cards-info">
                             <div class="technologies secondary-light shadow-1">
                                 <span class="tech-icon secondary-dark shadow-1">PHP</span>
@@ -88,7 +89,7 @@
                                 <span class="tech-icon secondary-dark shadow-1">CSS</span>
                             </div>
                             <div class="links secondary-dark shadow-1" data-page="Sonda">
-                                Więcej <i class="material-icon">info_outline</i>
+                                Więcej <i class="fa fa-info-circle" aria-hidden="true"></i>
                             </div>
                         </div>
                     </div>
@@ -103,7 +104,7 @@
                                 <span class="tech-icon secondary-dark shadow-1">HTML</span>
                             </div>
                             <div class="links secondary-dark shadow-1" data-page="Kulka">
-                                Więcej <i class="material-icon">info_outline</i>
+                                Więcej <i class="fa fa-info-circle" aria-hidden="true"></i>
                             </div>
                         </div>
                     </div>
@@ -118,7 +119,7 @@
 
                         <div class="form-part-1">
                             <div class="input-block shadow-2">
-                                <div class="field-name secondary-light shadow-1">Twój Email</div>
+                                <div class="field-name secondary-light shadow-1">Twój Email <i class="fa fa-envelope-o" aria-hidden="true"></i></div>
                                 <input type="email" name="email" required/>
                             </div>
 
@@ -144,24 +145,27 @@
 
             <div id="spacer"></div>
             <footer class="shadow-2">
-                <div class="long-bar shadow-2 primary-normal">
-                    Tu mnie znajdziesz
+                <div class="long-bar shadow-2 primary-dark">
+                    Tu mnie znajdziesz <i class="fa fa-search" aria-hidden="true"></i>
                 </div>
                 <div class="link-container">
-                    <div id="github-link" class="footer-link">
-                        <i class="fa fa-github" aria-hidden="true"></i>
-                    </div>
-                    <div id="facebook-link" class="footer-link">
-                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                    </div>
-                    <div id="linkedin-link" class="footer-link">
-                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                    </div>
+
+                    <a href="https://github.com/theYiome">
+                        <div id="github-link" class="footer-link" target="_blank">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div id="linkedin-link" class="footer-link">
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        </div>
+                    </a>
+
                 </div>
             </footer>
         </div>
     <!-- Later Load -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
         <script src="https://use.fontawesome.com/0ee462d83e.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="../universal/card.js"></script>
