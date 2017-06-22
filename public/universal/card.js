@@ -75,7 +75,7 @@ $(document).ready(function(){
         setTimeout(function() { sheetExtended = false }, 400);
     }
 
-    $(".links").click(function(){
+    $(".card-of-the-project").click(function(){
         if(sheetExtended === false){
             updateSheetsContent($(this).data("page"));
             slideIn();
