@@ -282,6 +282,8 @@ button[type="submit"]:hover{
     background-color: crimson;
 }
 
+/* footer css */
+
 #spacer{
     flex: 1;
 }
@@ -294,7 +296,16 @@ footer{
     flex-direction: column;
 }
 
+.footer-bar{
+    text-align: center;
+    font-size: 4vh;
+    padding: 0.6vh;
+    margin: 1vh;
+    border-left: 1vh solid rgba(0,0,112,0.9);
+}
+
 .link-container{
+    flex: 1;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

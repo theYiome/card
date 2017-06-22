@@ -105,6 +105,16 @@
         height: 22vw;
     }
 
+    footer{
+        flex-direction: row;
+    }
+
+    .footer-bar{
+        font-size: 5vh;
+        padding: 2vh;
+        margin: 6vh 2vh;
+    }
+
     /* side panel css */
 
     #side-bar{
