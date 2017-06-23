@@ -23,7 +23,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url("../resources/deep_blue_flower_min-web.jpg");
+    background-image: url("../resources/deep_blue_flower_web_blured.jpg");
     background-size: cover;
     background-position: center top;
     transition: all 0.6s ease-in-out;
@@ -137,7 +137,7 @@ header{
 .card-of-the-project{
     position: relative;
     background-color: #dddddd;
-    width: 92vw;
+    width: 91vw;
     height: 57vw;
     margin: 0 1vw 7vw;
     display: flex;

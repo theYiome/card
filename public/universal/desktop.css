@@ -41,8 +41,8 @@
     /* single card css */
 
     .card-of-the-project{
-        width: 30vw;
-        height: 19vw;
+        width: 28vw;
+        height: 18.6vw;
         margin: 0 0 3vw;
     }
 
@@ -56,7 +56,7 @@
     }
 
     .technologies{
-        font-size: 1.6vw;
+        font-size: 1.4vw;
         margin: 0 0.6vw 0.3vw 0.6vw;
     }
 
@@ -133,7 +133,4 @@
 
 @media (min-width: 960px){
 
-    #wrapper{
-        background-image: url("../resources/deep_blue_flower_web.jpg");
-    }
 }
