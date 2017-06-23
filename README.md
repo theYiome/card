@@ -1,2 +1,2 @@
 # card
-Page with about my projects
+Page with and about my projects
