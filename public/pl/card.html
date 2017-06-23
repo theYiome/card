@@ -21,7 +21,7 @@
             <div id="side-sheet" class="shadow-5">
                 <nav id="side-bar" class="shadow-3 primary-light">
                     <span id="side-back" class="shadow-2 primary-normal">
-                        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                        <span class="fa fa-chevron-left" aria-hidden="true"></span>
                     </span>
                     <span id="side-title" class="shadow-2 primary-dark"></span>
                 </nav>
@@ -32,8 +32,8 @@
 
             <header class="shadow-2">
 
-                <div id="lang-bar" class="shadow-2 long-bar">
-                    Website in English <i class="fa fa-language" aria-hidden="true"></i>
+                <div id="lang-bar" class="shadow-2 long-bar primary-dark">
+                    Website in English <span class="fa fa-language" aria-hidden="true"></span>
                 </div>
 
                 <div id="main-header">
@@ -54,7 +54,7 @@
 
                 </div>
 
-                <div id="description-info" class="shadow-2">
+                <div id="description-info" class="shadow-2 secondary-dark">
                     * Obecnie pracuję nad usunięciem tego słowa.
                 </div>
 
@@ -104,25 +104,31 @@
                     <form class="contact-form">
 
                         <div class="form-part-1">
+                            <label>
                             <div class="input-block shadow-2">
-                                <div class="field-name secondary-light shadow-1">Twój Email <i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                                <div class="field-name secondary-light shadow-1">Twój Email <span class="fa fa-envelope-o" aria-hidden="true"></span></div>
                                 <input type="email" name="email" required/>
                             </div>
-
+                            </label>
+                            
+                            <label>
                             <div class="input-block shadow-2">
                                 <div class="field-name secondary-normal shadow-1">Temat</div>
                                 <input type="text" name="subject" required/>
                             </div>
+                            </label>
                         </div>
 
                         <div class="form-part-2">
+                            <label>
                             <div class="input-block shadow-2">
                                 <div class="field-name secondary-dark shadow-1">Wiadomość</div>
                                 <textarea name="message" required></textarea>             
                             </div>
+                            </label>
 
                             <button type="submit" class="primary-dark shadow-2">
-                                Wyślij <i class="fa fa-envelope" aria-hidden="true"></i>
+                                Wyślij <span class="fa fa-envelope" aria-hidden="true"></span>
                             </button>
                         </div>
                     </form>
@@ -133,19 +139,19 @@
             <div id="spacer"></div>
             <footer class="shadow-2">
                 <div class="footer-bar shadow-2 primary-dark">
-                    Tu mnie znajdziesz <i class="fa fa-search" aria-hidden="true"></i>
+                    Tu mnie znajdziesz <span class="fa fa-search" aria-hidden="true"></span>
                 </div>
                 <div class="link-container">
 
                     <a href="https://github.com/theYiome">
                         <div id="github-link" class="footer-link">
-                            <i class="fa fa-github" aria-hidden="true"></i>
+                            <span class="fa fa-github" aria-hidden="true"></span>
                         </div>
                     </a>
 
                     <a href="">
                         <div id="linkedin-link" class="footer-link">
-                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            <span class="fa fa-linkedin-square" aria-hidden="true"></span>
                         </div>
                     </a>
 

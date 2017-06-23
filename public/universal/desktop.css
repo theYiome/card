@@ -1,19 +1,20 @@
 @media (min-width: 960px), (orientation: landscape){
     .long-bar{
-        font-size: 4vw;
-        padding: 0.6vw;
+        font-size: 3vw;
+        padding: 0.2vw;
+        border-radius: 0.4vw;
         margin: 1vw;
     }
     
     #main-header{
         flex-direction: row;
-        font-size: 4vw;
+        font-size: 3vw;
     }
 
     #photo-block div{
-        border-radius: 12vw;
-        width: 24vw;
-        height: 24vw;
+        border-radius: 11vw;
+        width: 22vw;
+        height: 22vw;
     }
 
     #description-block{
@@ -22,18 +23,19 @@
     }
 
     #welcome{
-        font-size: 8vw;
+        font-size: 6vw;
     }
 
     #description-info{
-        font-size: 3vw;
+        font-size: 2.4vw;
         padding: 0.6vw;
         margin: 1vw;
+        border-radius: 0.4vw;
     }
 
     .name-header{
         padding: 0.3vw;
-        font-size: 5vw;
+        font-size: 4vw;
     }
     
     /* single card css */
