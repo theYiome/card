@@ -285,6 +285,7 @@ footer{
     margin: 1vh;
     border-radius: 2vh;
     border-left: 1vh solid white;
+    border-right: 1vh solid white;
 }
 
 .link-container{
