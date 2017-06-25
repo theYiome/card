@@ -30,6 +30,7 @@ body{
 }
 
 header{
+    background: linear-gradient(to bottom right, #396244, #113304);
     border-top: 2vh solid #7AB10E;
     font-size: 4vh;
     text-align: center;
@@ -240,6 +241,7 @@ textarea:focus{
 }
 
 button[type="submit"]{
+    color: #113304;
     cursor: pointer;
     font-family: inherit;
     width: 100%;
@@ -265,6 +267,7 @@ button[type="submit"]:hover{
 
 footer{
     /*#312c40;*/
+    background: linear-gradient(to bottom right, #0E401B, #113304);
     font-size: 15vh;
     overflow: hidden;
     display: flex;
