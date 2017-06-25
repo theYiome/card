@@ -6,7 +6,7 @@ html, body{
 
 ::selection{
     color: white; 
-    background: crimson;
+    background: #0000a0;
 }
 
 a{
@@ -30,13 +30,14 @@ body{
 }
 
 header{
-    background: linear-gradient(to right, rgba(19,113,0,1) , rgba(0,0,112,1));
+    border-top: 2vh solid #7AB10E;
     font-size: 4vh;
     text-align: center;
     margin-bottom: 10px;
     color: #bbbbbb;
     display: flex;
     flex-direction: column;
+    cursor: default;
 }
 
 .horiz-ver-center{
@@ -45,24 +46,8 @@ header{
     justify-content: center;
 }
 
-.long-bar{
-    font-size: 4vh;
-    padding: 0.6vh;
-    margin: 1vh;
-    text-align: center;
-}
-
-#lang-bar{
-    transition: all 0.3s ease-in-out;
-}
-
-#lang-bar:hover{
-    cursor: pointer;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-    background-color: crimson;
-}
-
 #main-header{
+    margin-top: 2vh;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -74,7 +59,8 @@ header{
 }
 
 #photo-block div{
-    transition: all 0.3s ease-in-out;
+    transition: background-image 0.3s ease-in-out;
+    transition-delay: 0.3s;
     border-radius: 20vw;
     background-image: url("../resources/kamilpasterczyk.jpg");
     background-repeat: no-repeat;
@@ -82,6 +68,11 @@ header{
     width: 40vw;
     height: 40vw;
 }
+
+#photo-block div:hover{
+    background-image: url("../resources/yiome1024a.png");
+}
+
 
 #description-block{
     text-align: center;
@@ -91,7 +82,7 @@ header{
 }
 
 #description-block span{
-    color: white;
+    color: #CAEA6F;
 }
 
 #welcome{
@@ -113,14 +104,14 @@ header{
     display: flex;
     flex-direction: column;
     transition: all 0.25s ease-in-out;
-    background-color: rgba(220, 220, 220, 0.9);/*#eeeeee;*/
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    border-left: 0.6vw solid #137100;
+    background-color: rgba(220, 220, 220, 0.9);
+    border-left: 0.6vw solid #113304;
 }
 
 .name-header{
     padding: 0.3vh;
     font-size: 8vh;
+    cursor: default;
 }
 
 .cards-container{
@@ -200,7 +191,7 @@ header{
 .contact-form{
     display: flex;
     flex-direction: column;
-    width: 90vw;
+    width: 92%;
     margin: 32px auto;
     font-size: 2.6vh;
 }
@@ -249,6 +240,7 @@ textarea:focus{
 }
 
 button[type="submit"]{
+    cursor: pointer;
     font-family: inherit;
     width: 100%;
     border: 0;
@@ -261,7 +253,8 @@ button[type="submit"]{
 
 button[type="submit"]:hover{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    background-color: crimson;
+    background-color: #0000a0;
+    color: white;
 }
 
 /* footer css */
@@ -271,7 +264,7 @@ button[type="submit"]:hover{
 }
 
 footer{
-    background-color: rgba(0,70,0,1); /*#312c40;*/
+    /*#312c40;*/
     font-size: 15vh;
     overflow: hidden;
     display: flex;
@@ -279,13 +272,32 @@ footer{
 }
 
 .footer-bar{
+    cursor: default;
     text-align: center;
     font-size: 4vh;
     padding: 0.6vh;
     margin: 1vh;
-    border-radius: 2vh;
-    border-left: 1vh solid white;
-    border-right: 1vh solid white;
+    border-radius: 1vh;
+    border-left: 0.6vh solid white;
+    border-right: 0.6vh solid white;
+}
+
+.long-bar{
+    font-size: 4vh;
+    padding: 1vh;
+    margin: 1vh;
+    text-align: center;
+}
+
+#lang-bar{
+    transition: all 0.3s ease-in-out;
+}
+
+#lang-bar:hover{
+    cursor: pointer;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    background-color: #0000a0;
+    color: white;
 }
 
 .link-container{
@@ -353,7 +365,8 @@ footer{
 }
 
 #side-back:hover{
-    background-color: crimson;
+    background-color: #0000a0;
+    color: white;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 

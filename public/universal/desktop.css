@@ -1,10 +1,4 @@
 @media (min-width: 960px), (orientation: landscape){
-    .long-bar{
-        font-size: 3vw;
-        padding: 0.2vw;
-        border-radius: 0.4vw;
-        margin: 1vw;
-    }
     
     #main-header{
         flex-direction: row;
@@ -64,11 +58,6 @@
         border-radius: 0.3vw;
         margin: 0.3vw;
         padding: 0.1vw;
-    }
-
-    .links{
-        font-size: 2vw;
-        margin: 0 0.6vw 0.3vw 0;
     }
 
     .contact-form{
@@ -131,6 +120,25 @@
 
 }
 
-@media (min-width: 960px){
+@media (min-width: 1440px){
+    .std-container{
+        margin: 3vh auto;
+        width: 82vw;
+    }
 
+    .card-of-the-project{
+        width: 26vw;
+        height: 16vw;
+        margin: 0 0 3vw;
+    }
+
+    .cards-title{
+        font-size: 2.4vw;
+        padding-left: 0.5vw;
+    }
+
+    .technologies{
+        font-size: 1.1vw;
+        margin: 0 0.6vw 0.3vw 0.6vw;
+    }
 }

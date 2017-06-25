@@ -3,6 +3,7 @@ article{
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
+    cursor: default;
 }
 
 article a{
