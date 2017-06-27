@@ -1,19 +1,19 @@
 .primary-light{
-    background-color: #CAEA6F;
+    background-color: #7AB10E;
     /*background-color: #84D242;*/
     color: black;
 }
 
 .primary-normal{
-    background-color: #93D423;
+    background-color: #50a000;
     /*background-color: #50a000;*/
-    color: black;
+    color: white;
 }
 
 .primary-dark{
-    background-color: #7AB10E;
+    background-color: #137100;
     /*background-color: #137100;*/
-    color: black;
+    color: white;
 }
 
 .secondary-light{

@@ -7,11 +7,12 @@ article{
 }
 
 article a{
-    color: crimson;
+    transition: all 0.2s ease-in-out;
+    color: green;
 }
 
-article a{
-    color: red;
+article a:hover{
+    color: #7AB10E;
 }
 
 section{

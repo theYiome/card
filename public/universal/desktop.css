@@ -1,4 +1,4 @@
-@media (min-width: 960px), (orientation: landscape){
+@media (orientation: landscape){
     
     #main-header{
         flex-direction: row;
@@ -35,13 +35,13 @@
     /* single card css */
 
     .card-of-the-project{
-        width: 28vw;
-        height: 18.6vw;
+        width: 44vw;
+        height: 27vw;
         margin: 0 0 3vw;
     }
 
     .cards-title{
-        font-size: 3vw;
+        font-size: 4.4vw;
         padding-left: 0.6vw;
     }
 
@@ -50,7 +50,7 @@
     }
 
     .technologies{
-        font-size: 1.5vw;
+        font-size: 2.3vw;
         margin: 0 0.6vw 0.3vw 0.6vw;
     }
 
@@ -60,6 +60,18 @@
         padding: 0.1vw;
     }
 
+    footer{
+        flex-direction: row;
+    }
+
+    .footer-bar{
+        font-size: 5vh;
+        padding: 2vh;
+        margin: 6vh 2vh;
+    }
+
+    /* contact form css */
+    
     .contact-form{
         flex-direction: row;
     }
@@ -96,16 +108,6 @@
         height: 22vw;
     }
 
-    footer{
-        flex-direction: row;
-    }
-
-    .footer-bar{
-        font-size: 5vh;
-        padding: 2vh;
-        margin: 6vh 2vh;
-    }
-
     /* side panel css */
 
     #side-bar{
@@ -118,6 +120,35 @@
         flex: 1;
     }
 
+}
+
+@media (min-width: 960px){
+    /* card */
+    .card-of-the-project{
+        width: 28vw;
+        height: 18.6vw;
+        margin: 0 0 3vw;
+    }
+
+    .cards-title{
+        font-size: 3vw;
+        padding-left: 0.6vw;
+    }
+
+    .cards-content{
+        margin: 0.6vw;
+    }
+
+    .technologies{
+        font-size: 1.5vw;
+        margin: 0 0.6vw 0.3vw 0.6vw;
+    }
+
+    .tech-icon{
+        border-radius: 0.3vw;
+        margin: 0.3vw;
+        padding: 0.1vw;
+    }
 }
 
 @media (min-width: 1440px){
