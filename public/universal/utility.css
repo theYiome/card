@@ -1,17 +1,17 @@
 .primary-light{
-    background-color: #7AB10E;
+    background-color: #68A10E;
     /*background-color: #84D242;*/
     color: black;
 }
 
 .primary-normal{
-    background-color: #50a000;
+    background-color: #509000;
     /*background-color: #50a000;*/
     color: white;
 }
 
 .primary-dark{
-    background-color: #137100;
+    background-color: #135100;
     /*background-color: #137100;*/
     color: white;
 }

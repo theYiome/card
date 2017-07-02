@@ -30,6 +30,7 @@ body{
 }
 
 header{
+    min-height: 48vh;
     background: linear-gradient(to bottom right, #396244, #113304);
     border-top: 3vh solid #7AB10E;
     font-size: 4vh;
@@ -48,6 +49,7 @@ header{
 }
 
 #main-header{
+    overflow: hidden;
     margin-top: 2vh;
     display: flex;
     flex-direction: column;
@@ -61,12 +63,12 @@ header{
 
 #photo-block div{
     transition: background-image 0.6s ease-in-out;
-    border-radius: 20vw;
+    border-radius: 22vw;
     background-image: url("../resources/kamilpasterczyk.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 40vw;
-    height: 40vw;
+    width: 44vw;
+    height: 44vw;
 }
 
 #photo-block div:hover{

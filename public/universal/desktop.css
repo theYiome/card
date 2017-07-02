@@ -1,14 +1,18 @@
 @media (orientation: landscape){
     
+    header{
+        min-height: 30vw;
+    }
+
     #main-header{
         flex-direction: row;
         font-size: 3vw;
     }
 
     #photo-block div{
-        border-radius: 11vw;
-        width: 22vw;
-        height: 22vw;
+        border-radius: 10vw;
+        width: 20vw;
+        height: 20vw;
     }
 
     #description-block{

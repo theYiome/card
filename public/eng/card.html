@@ -1,108 +1,168 @@
 <!DOCTYPE html>
 <html>
-    <head lang="pl">
+    <head lang="en">
         <meta charset="UTF-8">
         <meta name="author" content="Kamil Pasterczyk">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Work in progress</title>
-
+        <meta name="description" content="An amateur programmer portfolio.">
+        <title>Kamil Pasterczyk - Portfolio</title>
+        
+        <script src="https://use.fontawesome.com/0ee462d83e.js"></script>
         <link rel="stylesheet" href="../universal/mobile-portrait.css" type="text/css">
         <link rel="stylesheet" href="../universal/std-side.css" type="text/css">
-        <link rel='stylesheet' media="all and (orientation: landscape) and (max-width: 900px)" href="../universal/mobile-landscape.css">
-        <link rel='stylesheet' media="all and (min-width: 901px)" href="../universal/desktop.css">
         <link rel="stylesheet" href="../universal/utility.css" type="text/css">
-
+        <link rel='stylesheet' href="../universal/desktop.css">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:400&amp;subset=latin-ext" rel="stylesheet">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="../universal/card.js"></script>
+        <!--[if lt IE 9]>
+	        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <![endif]-->
     </head>
 
     <body>
-        <div id="side-sheet" class="shadow-5">
-            <nav id="side-bar" class="shadow-1 primary-light">
-                <span id="side-back" class="shadow-2 primary-normal">
-                    <i class="material-icon">keyboard_backspace</i>
-                </span>
-                <span id="side-title" class="shadow-2 primary-dark"></span>
-            </nav>
-            <div id="side-content" class="shadow-3"></div>
-        </div>
-        <div id="wrapper">
-            <header class="primary-light shadow-2">Header</header>
-            
-            <div id="about" class="std-container">
-                <div class="name-header primary-normal">name1</div>
-                <div id="description">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Praesent vel felis vel ante venenatis maximus vitae vitae eros. 
-                        Maecenas sollicitudin cursus felis quis vestibulum. Sed at purus aliquet, 
-                        pellentesque metus ut, pharetra lorem. 
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam efficitur ipsum mi, sit amet porta massa elementum vitae. 
-                        Vestibulum rhoncus urna nec sem tincidunt, vitae accumsan orci porttitor. Sed tincidunt purus risus, dictum ornare nulla elementum non. Nulla facilisi.
-                        Donec ante augue, commodo non imperdiet a, fringilla molestie arcu. Curabitur accumsan justo sed sapien lobortis, vehicula ornare libero sollicitudin. 
-                        Curabitur at dolor magna. Vestibulum porttitor lacus a accumsan vestibulum. Cras et ligula eget velit vehicula molestie.
-                    </p>
-                </div>
+        <main>
+            <!-- side panel -->
+            <div id="side-sheet" class="shadow-5">
+                <nav id="side-bar" class="shadow-3 primary-light">
+                    <span id="side-back" class="shadow-2 primary-normal">
+                        <span class="fa fa-chevron-left" aria-hidden="true"></span>
+                    </span>
+                    <span id="side-title" class="shadow-2 primary-dark"></span>
+                </nav>
+                <div id="side-content" class="shadow-3"></div>
             </div>
+            <!-- main part -->
+            <div id="wrapper">
 
-            <div id="projects-container" class="std-container">
-                <div class="name-header primary-normal">name2</div>
+            <header class="shadow-2 secondary-normal">
+
+                <div id="main-header">
+
+                    <div id="photo-block" style="margin: 0;" class="horiz-ver-center">
+                        <div class="shadow-4">
+                        </div>
+                    </div>
+
+                    <div id="description-block" class="horiz-ver-center">
+                        <div>
+                            <div id="welcome">Welcome,</div>
+                            my name is <span>Kamil</span>
+                            and I am an <span>amateur programmer</span>*.
+                            There are a couple of my <span>projects</span> down below.
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="description-info" class="shadow-2 secondary-dark">
+                    * I am currently working on erasing this word.
+                </div>
+
+            </header>
+            <!-- container with projects cards -->
+            <div id="projects-container" class="std-container shadow-1">
+                <div class="name-header secondary-light shadow-2">Projects</div>
                 <div class="cards-container">
 
-                    <div class="card-of-the-project">
-                        <div class="cards-title secondary-dark shadow-1">???</div>
+                    <div class="card-of-the-project" data-page="Portfolio">
+                        <div class="cards-title secondary-dark shadow-1">This page</div>
                         <div class="cards-content shadow-1" style='background-image: url("../resources/card-alpha.jpg");'></div>
-                        <div class="cards-info">
-                            <div class="technologies secondary-light shadow-1">
-                                <span class="tech-icon secondary-dark shadow-1">CSS</span>
-                                <span class="tech-icon secondary-dark shadow-1">HTML</span>
-                                <span class="tech-icon secondary-dark shadow-1">jQuery</span>
-                            </div>
-                            <div class="links secondary-dark shadow-1" data-page="none">
-                                More <i class="material-icon">info_outline</i>
-                            </div>
+                        <div class="technologies secondary-light shadow-1">
+                            <span class="tech-icon secondary-dark shadow-1">CSS</span>
+                            <span class="tech-icon secondary-dark shadow-1">HTML</span>
+                            <span class="tech-icon secondary-dark shadow-1">jQuery</span>
                         </div>
                     </div>
 
-                <div class="card-of-the-project">
-                        <div class="cards-title secondary-light shadow-1">???</div>
-                        <div class="cards-content shadow-1" style='background-image: url("../resources/sonda-V1.jpg");'></div>
-                        <div class="cards-info">
-                            <div class="technologies secondary-light shadow-1">
-                                <span class="tech-icon secondary-dark shadow-1">PHP</span>
-                                <span class="tech-icon secondary-dark shadow-1">MySQL</span>
-                                <span class="tech-icon secondary-dark shadow-1">HTML</span>
-                                <span class="tech-icon secondary-dark shadow-1">CSS</span>
-                            </div>
-                            <div class="links secondary-dark shadow-1" data-page="none">
-                                More <i class="material-icon">info_outline</i>
-                            </div>
+                <div class="card-of-the-project" data-page="Sonda">
+                        <div class="cards-title secondary-light shadow-1">Sonda</div>
+                        <div class="cards-content shadow-1" style='background-image: url("../resources/sonda.jpg");'></div>
+                        <div class="technologies secondary-light shadow-1">
+                            <span class="tech-icon secondary-dark shadow-1">PHP</span>
+                            <span class="tech-icon secondary-dark shadow-1">MySQL</span>
+                            <span class="tech-icon secondary-dark shadow-1">HTML</span>
+                            <span class="tech-icon secondary-dark shadow-1">CSS</span>
                         </div>
                     </div>
 
-                    <div class="card-of-the-project">
-                        <div class="cards-title secondary-dark shadow-1">???</div>
+                    <div class="card-of-the-project" data-page="Ball">
+                        <div class="cards-title secondary-dark shadow-1">Ball</div>
                         <div class="cards-content shadow-1" style='background-image: url("../resources/project-ball.jpg");'></div>
-                        <div class="cards-info">
-                            <div class="technologies secondary-light shadow-1">
-                                <span class="tech-icon secondary-dark shadow-1">JS</span>
-                                <span class="tech-icon secondary-dark shadow-1">CSS</span>
-                                <span class="tech-icon secondary-dark shadow-1">HTML</span>
-                            </div>
-                            <div class="links secondary-dark shadow-1" data-page="none">
-                                More <i class="material-icon">info_outline</i>
-                            </div>
+                        <div class="technologies secondary-light shadow-1">
+                            <span class="tech-icon secondary-dark shadow-1">JS</span>
+                            <span class="tech-icon secondary-dark shadow-1">CSS</span>
+                            <span class="tech-icon secondary-dark shadow-1">HTML</span>
                         </div>
                     </div>
 
                 </div>
             </div>
+            <!-- contact form -->
+            <div id="contact-me" class="std-container shadow-1">
+                <div class="name-header secondary-light shadow-2">Contact me</div>
+                <div id="description">
+                    <form class="contact-form">
+
+                        <div class="form-part-1">
+                            <label>
+                            <div class="input-block shadow-2">
+                                <div class="field-name secondary-light shadow-1">Your email <span class="fa fa-envelope-o" aria-hidden="true"></span></div>
+                                <input type="email" name="email" placeholder="so I could reply" required>
+                            </div>
+                            </label>
+                            
+                            <label>
+                            <div class="input-block shadow-2">
+                                <div class="field-name secondary-normal shadow-1">Subject</div>
+                                <input type="text" name="subject" placeholder="it's helpful" required>
+                            </div>
+                            </label>
+                        </div>
+
+                        <div class="form-part-2">
+                            <label>
+                            <div class="input-block shadow-2">
+                                <div class="field-name secondary-dark shadow-1">Message</div>
+                                <textarea name="message" placeholder="I am listening carefully" required></textarea>             
+                            </div>
+                            </label>
+
+                            <button type="submit" class="primary-dark shadow-2">
+                                Send <span class="fa fa-envelope" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+         </main>
+
             <div id="spacer"></div>
-            <footer class="primary-dark shadow-2">Footer</footer>
+            <footer class="shadow-2 secondary-dark">
+                <a href="../pl/card.html">
+                <div id="lang-bar" class="footer-bar shadow-2 primary-dark long-bar">
+                     Strona po Polsku <span class="fa fa-language" aria-hidden="true"></span>
+                </div>
+                </a>
+                <div class="link-container">
+
+                    <a href="https://github.com/theYiome">
+                        <div id="github-link" class="footer-link">
+                            <span class="fa fa-github" aria-hidden="true"></span>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div id="linkedin-link" class="footer-link">
+                            <span class="fa fa-linkedin-square" aria-hidden="true"></span>
+                        </div>
+                    </a>
+
+                </div>
+            </footer>
         </div>
+    <!-- load later -->
+        <script src="https://use.fontawesome.com/0ee462d83e.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="../universal/card.js"></script>
+        <script src="english.js"></script>
     </body>
 </html>
