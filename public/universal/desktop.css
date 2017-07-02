@@ -112,6 +112,19 @@
         height: 22vw;
     }
 
+    /* footer css */
+
+    .footer-link div:first-child{
+        font-size: 12vw;
+        margin: -1.4vw 0 -0.6vw;
+        padding: 0 2vw;
+    }
+
+    .footer-link div:last-child{
+        font-size: 3vw;
+        padding: 0.2vw;
+    }
+
     /* side panel css */
 
     #side-bar{
