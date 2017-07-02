@@ -373,6 +373,7 @@ footer{
 
 #side-title{
     flex: 1;
+    padding-left: 1vw;
 }
 
 #side-content{
