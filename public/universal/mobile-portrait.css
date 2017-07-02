@@ -289,7 +289,7 @@ footer{
 }
 
 .footer-link{
-    margin: 1.6vh;
+    margin: 1vh;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     color: #999;
@@ -310,7 +310,7 @@ footer{
 }
 
 .footer-link div:first-child{
-    font-size: 22vw;
+    font-size: 14vw;
     margin: -1.4vw 0 -0.6vw;
     padding: 0 4vw;
 }
@@ -318,7 +318,7 @@ footer{
 .footer-link div:last-child{
     color: inherit;
     text-align: center;
-    font-size: 5.4vw;
+    font-size: 4vw;
     padding: 0.4vw;
 }
 

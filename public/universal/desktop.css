@@ -114,14 +114,22 @@
 
     /* footer css */
 
+    .link-container{
+        justify-content: center;
+    }
+
+    .footer-link{
+        margin: 0.9vw 1.4vw;
+    }
+
     .footer-link div:first-child{
-        font-size: 12vw;
-        margin: -1.4vw 0 -0.6vw;
+        font-size: 10vw;
+        margin: -1vw 0 -0.5vw;
         padding: 0 2vw;
     }
 
     .footer-link div:last-child{
-        font-size: 3vw;
+        font-size: 2.4vw;
         padding: 0.2vw;
     }
 
