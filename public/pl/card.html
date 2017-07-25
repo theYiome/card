@@ -30,163 +30,170 @@
             <!-- main part -->
             <div id="wrapper">
 
-            <header class="shadow-2 secondary-normal">
+                <header class="shadow-2 secondary-normal">
 
-                <div id="main-header">
+                    <div id="main-header">
 
-                    <div id="photo-block" style="margin: 0;" class="horiz-ver-center">
-                        <div class="shadow-4">
+                        <div id="photo-block" style="margin: 0;" class="horiz-ver-center">
+                            <div class="shadow-4">
+                            </div>
                         </div>
+
+                        <div id="description-block" class="horiz-ver-center">
+                            <div>
+                                <div id="welcome">Witaj,</div>
+                                mam na imię <span>Kamil</span>
+                                i jestem <span>programistą amatorem</span>*.
+                                Poniżej znajduje się kilka moich <span>projektów</span>.
+                            </div>
+                        </div>
+
                     </div>
 
-                    <div id="description-block" class="horiz-ver-center">
-                        <div>
-                            <div id="welcome">Witaj,</div>
-                            mam na imię <span>Kamil</span>
-                            i jestem <span>programistą amatorem</span>*.
-                            Poniżej znajduje się kilka moich <span>projektów</span>.
-                        </div>
+                    <div id="description-info" class="shadow-2 secondary-dark">
+                        * Obecnie pracuję nad usunięciem tego słowa.
                     </div>
 
+                </header>
+
+                <!-- container with projects cards -->
+
+                <div id="projects-container" class="std-container shadow-1">
+                    <div class="name-header secondary-light shadow-2">Projekty</div>
+                    <div class="cards-container">
+
+                        <div class="card-of-the-project" data-page="Portfolio">
+                            <div class="cards-title secondary-dark shadow-1">Ta strona</div>
+                            <div class="cards-content shadow-1" style='background-image: url("../resources/card-alpha.jpg");'></div>
+                            <div class="technologies secondary-light shadow-1">
+                                <span class="tech-icon secondary-dark shadow-1">CSS</span>
+                                <span class="tech-icon secondary-dark shadow-1">HTML</span>
+                                <span class="tech-icon secondary-dark shadow-1">jQuery</span>
+                            </div>
+                        </div>
+
+                    <div class="card-of-the-project" data-page="Sonda">
+                            <div class="cards-title secondary-light shadow-1">Sonda</div>
+                            <div class="cards-content shadow-1" style='background-image: url("../resources/sonda.jpg");'></div>
+                            <div class="technologies secondary-light shadow-1">
+                                <span class="tech-icon secondary-dark shadow-1">PHP</span>
+                                <span class="tech-icon secondary-dark shadow-1">MySQL</span>
+                                <span class="tech-icon secondary-dark shadow-1">HTML</span>
+                                <span class="tech-icon secondary-dark shadow-1">CSS</span>
+                            </div>
+                        </div>
+
+                        <div class="card-of-the-project" data-page="Kulka">
+                            <div class="cards-title secondary-dark shadow-1">Projekt Kulka</div>
+                            <div class="cards-content shadow-1" style='background-image: url("../resources/project-ball.jpg");'></div>
+                            <div class="technologies secondary-light shadow-1">
+                                <span class="tech-icon secondary-dark shadow-1">JS</span>
+                                <span class="tech-icon secondary-dark shadow-1">CSS</span>
+                                <span class="tech-icon secondary-dark shadow-1">HTML</span>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
-                <div id="description-info" class="shadow-2 secondary-dark">
-                    * Obecnie pracuję nad usunięciem tego słowa.
+                <!-- contact form -->
+
+                <div id="contact-me" class="std-container shadow-1">
+                    <div class="name-header secondary-light shadow-2">Kontakt</div>
+                    <div id="description">
+                        <form class="contact-form">
+
+                            <div class="form-part-1">
+                                <label>
+                                <div class="input-block shadow-2">
+                                    <div class="field-name secondary-light shadow-1">Twój Email <span class="fa fa-envelope-o" aria-hidden="true"></span></div>
+                                    <input type="email" name="email" placeholder="pozwól odpisać" required>
+                                </div>
+                                </label>
+                                
+                                <label>
+                                <div class="input-block shadow-2">
+                                    <div class="field-name secondary-normal shadow-1">Temat</div>
+                                    <input type="text" name="subject" placeholder="przyda się" required>
+                                </div>
+                                </label>
+                            </div>
+
+                            <div class="form-part-2">
+                                <label>
+                                <div class="input-block shadow-2">
+                                    <div class="field-name secondary-dark shadow-1">Wiadomość</div>
+                                    <textarea name="message" placeholder="słucham uważnie" required></textarea>             
+                                </div>
+                                </label>
+
+                                <button type="submit" class="primary-dark shadow-2">
+                                    Wyślij <span class="fa fa-envelope" aria-hidden="true"></span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
 
-            </header>
-            <!-- container with projects cards -->
-            <div id="projects-container" class="std-container shadow-1">
-                <div class="name-header secondary-light shadow-2">Projekty</div>
-                <div class="cards-container">
+                <div id="spacer"></div>
 
-                    <div class="card-of-the-project" data-page="Portfolio">
-                        <div class="cards-title secondary-dark shadow-1">Ta strona</div>
-                        <div class="cards-content shadow-1" style='background-image: url("../resources/card-alpha.jpg");'></div>
-                        <div class="technologies secondary-light shadow-1">
-                            <span class="tech-icon secondary-dark shadow-1">CSS</span>
-                            <span class="tech-icon secondary-dark shadow-1">HTML</span>
-                            <span class="tech-icon secondary-dark shadow-1">jQuery</span>
-                        </div>
+                <footer class="shadow-2 secondary-dark">
+                    <div class="link-container">
+
+                        <a href="../eng/card.html">
+                            <div id="language-link" class="footer-link shadow-2">
+                                <div>
+                                    <span class="fa fa-language" aria-hidden="true"></span>
+                                </div>
+
+                                <div class="secondary-normal">
+                                    in english
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/theYiome">
+                            <div id="github-link" class="footer-link shadow-2">
+                                <div>
+                                    <span class="fa fa-github" aria-hidden="true"></span>
+                                </div>
+
+                                <div class="secondary-normal">
+                                    github
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="">
+                            <div id="linkedin-link" class="footer-link shadow-2">
+                                <div>
+                                    <span class="fa fa-linkedin-square" aria-hidden="true"></span>
+                                </div>
+
+                                <div class="secondary-normal">
+                                    linkedin
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="https://www.facebook.com/kamil.pasterczyk.1">
+                            <div id="facebook-link" class="footer-link shadow-2">
+                                <div>
+                                    <span class="fa fa-facebook-official" aria-hidden="true"></span>
+                                </div>
+
+                                <div class="secondary-normal">
+                                    facebook
+                                </div>
+                            </div>
+                        </a>
+
                     </div>
+                </footer>
 
-                <div class="card-of-the-project" data-page="Sonda">
-                        <div class="cards-title secondary-light shadow-1">Sonda</div>
-                        <div class="cards-content shadow-1" style='background-image: url("../resources/sonda.jpg");'></div>
-                        <div class="technologies secondary-light shadow-1">
-                            <span class="tech-icon secondary-dark shadow-1">PHP</span>
-                            <span class="tech-icon secondary-dark shadow-1">MySQL</span>
-                            <span class="tech-icon secondary-dark shadow-1">HTML</span>
-                            <span class="tech-icon secondary-dark shadow-1">CSS</span>
-                        </div>
-                    </div>
-
-                    <div class="card-of-the-project" data-page="Kulka">
-                        <div class="cards-title secondary-dark shadow-1">Projekt Kulka</div>
-                        <div class="cards-content shadow-1" style='background-image: url("../resources/project-ball.jpg");'></div>
-                        <div class="technologies secondary-light shadow-1">
-                            <span class="tech-icon secondary-dark shadow-1">JS</span>
-                            <span class="tech-icon secondary-dark shadow-1">CSS</span>
-                            <span class="tech-icon secondary-dark shadow-1">HTML</span>
-                        </div>
-                    </div>
-
-                </div>
             </div>
-            <!-- contact form -->
-            <div id="contact-me" class="std-container shadow-1">
-                <div class="name-header secondary-light shadow-2">Kontakt</div>
-                <div id="description">
-                    <form class="contact-form">
+        </main>
 
-                        <div class="form-part-1">
-                            <label>
-                            <div class="input-block shadow-2">
-                                <div class="field-name secondary-light shadow-1">Twój Email <span class="fa fa-envelope-o" aria-hidden="true"></span></div>
-                                <input type="email" name="email" placeholder="pozwól odpisać" required>
-                            </div>
-                            </label>
-                            
-                            <label>
-                            <div class="input-block shadow-2">
-                                <div class="field-name secondary-normal shadow-1">Temat</div>
-                                <input type="text" name="subject" placeholder="przyda się" required>
-                            </div>
-                            </label>
-                        </div>
-
-                        <div class="form-part-2">
-                            <label>
-                            <div class="input-block shadow-2">
-                                <div class="field-name secondary-dark shadow-1">Wiadomość</div>
-                                <textarea name="message" placeholder="słucham uważnie" required></textarea>             
-                            </div>
-                            </label>
-
-                            <button type="submit" class="primary-dark shadow-2">
-                                Wyślij <span class="fa fa-envelope" aria-hidden="true"></span>
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-         </main>
-
-            <div id="spacer"></div>
-            <footer class="shadow-2 secondary-dark">
-                <div class="link-container">
-
-                    <a href="../eng/card.html">
-                        <div id="language-link" class="footer-link shadow-2">
-                            <div>
-                                <span class="fa fa-language" aria-hidden="true"></span>
-                            </div>
-
-                            <div class="secondary-normal">
-                                in english
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="https://github.com/theYiome">
-                        <div id="github-link" class="footer-link shadow-2">
-                            <div>
-                                <span class="fa fa-github" aria-hidden="true"></span>
-                            </div>
-
-                            <div class="secondary-normal">
-                                github
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="">
-                        <div id="linkedin-link" class="footer-link shadow-2">
-                            <div>
-                                <span class="fa fa-linkedin-square" aria-hidden="true"></span>
-                            </div>
-
-                            <div class="secondary-normal">
-                                linkedin
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="https://www.facebook.com/kamil.pasterczyk.1">
-                        <div id="facebook-link" class="footer-link shadow-2">
-                            <div>
-                                <span class="fa fa-facebook-official" aria-hidden="true"></span>
-                            </div>
-
-                            <div class="secondary-normal">
-                                facebook
-                            </div>
-                        </div>
-                    </a>
-
-                </div>
-            </footer>
-        </div>
     <!-- load later -->
         <script src="https://use.fontawesome.com/0ee462d83e.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
