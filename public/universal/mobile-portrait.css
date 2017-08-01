@@ -37,7 +37,7 @@ body{
 header{
     min-height: 48vh;
     background: linear-gradient(to bottom right, #396244, #113304);
-    border-top: 2.4vh solid #7AB10E;
+    border-top: 1.8vh solid #7AB10E;
     font-size: 4vh;
     text-align: center;
     margin-bottom: 10px;
@@ -135,8 +135,8 @@ header{
 .card-of-the-project{
     position: relative;
     background-color: #dddddd;
-    width: 91vw;
-    height: 57vw;
+    width: 86vw;
+    height: 54vw;
     margin: 0 1vw 7vw;
     display: flex;
     flex-direction: column;
@@ -179,7 +179,7 @@ header{
 .technologies{
     flex: 1;
     text-align: center;
-    font-size: 4.8vw;
+    font-size: 4.6vw;
     margin: 0 1vw 1vw 1vw;
     display: flex;
     flex-direction: row;
@@ -190,7 +190,7 @@ header{
 .tech-icon{
     user-select: none;
     border-radius: 0.6vw;
-    margin: 1.4vw;
+    margin: 1.3vw;
     flex: 1;
 }
 
