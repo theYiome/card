@@ -1,37 +1,36 @@
 .primary-light{
-    background-color: #68A10E;
-    /*background-color: #84D242;*/
-    color: black;
+    background-color: rgb(0, 91, 78);
+    color: white;
 }
 
 .primary-normal{
-    background-color: #509000;
-    /*background-color: #50a000;*/
+    background-color: rgb(2, 65, 56);
     color: white;
 }
 
 .primary-dark{
-    background-color: #136120;
-    /*background-color: #137100;*/
+    background-color: rgb(38, 66, 69);
     color: white;
 }
 
 .secondary-light{
-    background-color: #396244;
-    /*background-color: #5633d3*/
+    background-color: rgb(33, 44, 50);
     color: white;
 }
 
 .secondary-normal{
-    background-color: #0E401B;
-    /*background-color: #0000a0;*/
+    background-color: rgb(21, 35, 36);
     color: white;
 }
 
 .secondary-dark{
-    background-color: #113304;
-    /*background-color: #000070;*/
+    background-color: rgb(3, 28, 24);
     color: white;
+}
+
+::selection{
+    color: white; 
+    background: rgb(209, 52, 0);
 }
 
 /* https://codepen.io/sdthornton/pen/wBZdXq */

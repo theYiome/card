@@ -8,11 +8,11 @@ article{
 
 article a{
     transition: all 0.2s ease-in-out;
-    color: green;
+    color: rgb(209, 52, 0);
 }
 
 article a:hover{
-    color: #7AB10E;
+    color: rgb(256, 80, 32);
 }
 
 section{
@@ -72,7 +72,7 @@ section{
 }
 
 #git:hover{
-    background-color: greenyellow;
+    background-color: rgb(21, 35, 36);
 }
 
 #page-link{

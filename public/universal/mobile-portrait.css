@@ -4,11 +4,6 @@ html, body{
     height: 100%;
 }
 
-::selection{
-    color: white; 
-    background: #0000a0;
-}
-
 a{
     text-decoration: none;
     color: inherit;
@@ -28,7 +23,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url("../resources/deep_blue_flower_web_blured.jpg");
+    background-image: url("../resources/material_dark_green_red.jpg");
     background-size: cover;
     background-position: center top;
     transition: all 0.6s ease-in-out;
@@ -36,21 +31,15 @@ body{
 
 header{
     min-height: 48vh;
-    background: linear-gradient(to bottom right, #396244, #113304);
-    border-top: 1.8vh solid #7AB10E;
-    font-size: 4vh;
+    background: linear-gradient(to bottom right, rgba(0, 91, 78, 0.6), rgba(3, 28, 24, 0.6));
+    border-top: 1.8vh solid rgb(0, 91, 78);
+    font-size: 3.6vh;
     text-align: center;
     margin-bottom: 10px;
     color: #bbbbbb;
     display: flex;
     flex-direction: column;
     cursor: default;
-}
-
-.horiz-ver-center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #main-header{
@@ -63,17 +52,17 @@ header{
 
 #photo-block{
     flex: 2;
-    padding: 10px;    
+    padding: 8px;    
 }
 
 #photo-block div{
     transition: background-image 0.6s ease-in-out;
-    border-radius: 22vw;
+    border-radius: 20vw;
     background-image: url("../resources/kamilpasterczyk.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 44vw;
-    height: 44vw;
+    width: 40vw;
+    height: 40vw;
 }
 
 #photo-block div:hover{
@@ -85,21 +74,21 @@ header{
     text-align: center;
     flex: 5;
     align-items: flex-start;
-    padding: 10px;
+    padding: 8px;
 }
 
 #description-block span{
-    color: #CAEA6F;
+    color: rgb(209, 52, 0)
 }
 
 #welcome{
-    font-size: 10vh;
-    margin-bottom: 4vh;
+    font-size: 9vh;
+    margin-bottom: 2.6vh;
     color: white;
 }
 
 #description-info{
-    font-size: 3vh;
+    font-size: 2.6vh;
     padding: 0.6vh;
     margin: 1vh;
     text-align: left;
@@ -107,12 +96,12 @@ header{
 
 .std-container{
     margin: 3vh auto;
-    width: 93vw;
+    width: 92vw;
     display: flex;
     flex-direction: column;
     transition: all 0.25s ease-in-out;
-    background-color: rgba(220, 220, 220, 0.9);
-    border-left: 0.6vw solid #113304;
+    background-color: rgba(220, 220, 220, 0.75);
+    border-left: 1.6vw solid rgb(209, 52, 0);
 }
 
 .name-header{
@@ -152,8 +141,13 @@ header{
 }
 
 .card-of-the-project:hover .cards-title{
-    transition: all 0.16s ease-in-out;
-    background-color: #000070;
+    transition: all 0.26s ease-in-out;
+    background-color: rgb(209, 52, 0);
+}
+
+.card-of-the-project:hover .technologies{
+    transition: all 0.26s ease-in-out;
+    background-color: rgb(209, 52, 0);
 }
 
 .cards-title{
@@ -231,7 +225,7 @@ input{
 }
 
 input:focus{
-    outline-color: crimson;
+    outline-color: rgb(209, 52, 0);
 }
 
 textarea{
@@ -265,7 +259,7 @@ button[type="submit"]{
 
 button[type="submit"]:hover{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    background-color: #000070;
+    background-color: rgb(209, 52, 0);
     color: white;
 }
 
@@ -276,12 +270,11 @@ button[type="submit"]:hover{
 }
 
 footer{
-    /*#312c40;*/
-    background: linear-gradient(to bottom right, #0E401B, #113304);
+    background: linear-gradient(to bottom right, rgb(33, 44, 50), rgb(21, 35, 36));
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    border-bottom: 2.6vh solid #012304;
+    border-bottom: 2.6vh solid rgb(3, 28, 24);
 }
 
 .link-container{
@@ -299,7 +292,7 @@ footer{
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    background-color: #012304;
+    background-color: rgb(3, 28, 24);
 }
 
 /*https://css-tricks.com/adding-stroke-to-web-text/*/
@@ -325,8 +318,12 @@ footer{
     padding: 0.4vw;
 }
 
+.footer-link-title{
+    background-color: rgb(2, 65, 56);
+}
+
 #language-link:hover{
-    color: #7AB10E;
+    color: rgb(209, 52, 0);
 }
 
 #github-link:hover{
@@ -369,7 +366,7 @@ footer{
 }
 
 #side-back:hover{
-    background-color: #000070;
+    background-color: rgb(209, 52, 0);
     color: white;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
@@ -383,5 +380,7 @@ footer{
     flex: 1;
     outline: none;
     background-color: #dddddd;
+    background-image: url("../resources/material_white_gray.jpg");
+    background-size: cover;
     overflow: auto;
 }

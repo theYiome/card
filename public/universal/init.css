@@ -1,0 +1,31 @@
+#curtain{
+    position: fixed;
+    z-index: 4;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 91, 78);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: top 0.6s ease-in-out;
+}
+
+.horiz-ver-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gear{
+    width: 80vw;
+    height: 80vw;
+}
+
+@media (orientation: landscape){
+
+    .gear{
+        width: 80vh;
+        height: 80vh;
+    }
+    
+}

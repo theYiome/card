@@ -1,6 +1,7 @@
 # Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
 ErrorDocument 404 http://pasterczyk.xyz/index.php
-RewriteBase /
+Options +MultiViews
 RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^([^\.]+)$ $1.html [NC,L]

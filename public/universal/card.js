@@ -1,4 +1,14 @@
 $(document).ready(function(){
+    
+    function curtainUp(){
+        // slide out loading courtain
+        const curtain = $("#curtain");
+
+        setTimeout(function() { curtain.css("top", "-100vh") }, 200);
+        setTimeout(function() { curtain.remove(); }, 2000);
+    } 
+    
+    curtainUp();
 
     //https://stackoverflow.com/questions/1960240/jquery-ajax-submit-form
     $(".contact-form").submit(function(e){
