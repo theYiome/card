@@ -5,9 +5,9 @@
     left: 0vw;
     width: 100vw;
     height: 100vh;
-    background-color: rgb(0, 91, 78);
+    background: linear-gradient(to bottom right, rgb(0, 91, 78), rgb(38, 66, 69));
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    transition: top 0.6s ease-in-out;
+    transition: top 0.7s ease-in-out;
 }
 
 .horiz-ver-center{
@@ -17,15 +17,15 @@
 }
 
 .gear{
-    width: 80vw;
-    height: 80vw;
+    width: 64vw;
+    height: 64vw;
 }
 
 @media (orientation: landscape){
 
     .gear{
-        width: 80vh;
-        height: 80vh;
+        width: 64vh;
+        height: 64vh;
     }
     
 }

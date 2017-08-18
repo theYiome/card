@@ -4,8 +4,8 @@ $(document).ready(function(){
         // slide out loading courtain
         const curtain = $("#curtain");
 
-        setTimeout(function() { curtain.css("top", "-100vh") }, 200);
-        setTimeout(function() { curtain.remove(); }, 2000);
+        setTimeout(function() { curtain.css("top", "-120vh") }, 300);
+        setTimeout(function() { curtain.remove(); }, 1000);
     } 
     
     curtainUp();
